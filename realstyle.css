@@ -1,0 +1,8 @@
+body {display:flex; flex-flow:row wrap; align-items:center; justify-content:center; background:#333 url(https://images.unsplash.com/photo-1475862013929-0af29a1197f4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2534&q=80) fixed 50% 50%/ cover; }
+.holo {margin:0 10px 20px 10px; xwidth:300px; xheight:200px; border:5px solid rgba(0,100,200,0.5); border-radius:20px;  text-align:center; color:rgba(0,100,200,0.9); background:rgba(0,0,0,0.7); transform:scale(1.0);}
+
+.holo:hover, .holo.active {background:rgba(30,30,30,0.8); transition-duration:0.5s; transform:scale(1.1);}
+
+
+.holo h1 {font:bold 30px Arial; text-transform:uppercase;}
+.holo img {width:100%; width:300px; margin:10px; border-radius:20px;}
